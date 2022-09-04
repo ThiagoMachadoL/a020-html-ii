@@ -26,19 +26,24 @@
   }
   
   article, .d{
-    background-color: #dedede;
+    position: relative;
     height: 25%;
     width: 100%;
     margin-top: 20px;
     padding-top: 2%;
     padding-left: 1%;
   }
+  img, video{
+    height: 60%;
+}
   
   footer, .e{
+    position: relative;
+    bottom: 0;
     background-color: #242424;
-    height: 50px;
-    padding: 20px 0 0 20px;
+    width: 100%;
     text-align: center;
     color: white;
+    line-height: 80px;
   }
   
